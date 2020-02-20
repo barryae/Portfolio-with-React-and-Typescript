@@ -3,9 +3,9 @@ import * as React from "react";
 export function NavBar() {
     return (
         <div>
-            <h3>
+            <h2>
                 Barry Ervin Portfolio
-            </h3>
+            </h2>
         </div>
     )
 }

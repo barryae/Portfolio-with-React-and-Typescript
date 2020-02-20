@@ -2,7 +2,16 @@ import * as React from "react";
 import { Projects } from "../components/Projects"
 
 export const Main = () => {
-    let list = ["Project 1", "Project 2", "Project 3"]
+    const list: [] = []
+
+    fetch("https://api.github.com/users/barryae/repos?visibility=public&sort=created")
+        .then(results => {
+            return results.json()
+        })
+        .then((myJson) => {
+            console.log(myJson)
+        })
+
     return (
         // Image pulled in from GitHub
         <Projects projects={list} />

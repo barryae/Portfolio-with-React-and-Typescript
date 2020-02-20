@@ -9,12 +9,12 @@ export class Projects extends React.Component<{ projects: string[] }> {
         });
         return (
             <div>
-                <p>
+                <h3>
                     Projects:
-                </p>
-                <ul>
+                </h3>
+                <div>
                     {projectItems}
-                </ul>
+                </div>
             </div>
         )
     }
@@ -23,7 +23,7 @@ export class Projects extends React.Component<{ projects: string[] }> {
 class ProjectCard extends React.Component<{ name: string; key: number }>{
     render() {
         return (
-            <li>{this.props.name}</li>
+            <div>{this.props.name}</div>
         )
     }
 }
