@@ -1,20 +1,23 @@
 import * as React from "react";
+import { useState, useEffect } from "react";
 import { Projects } from "../components/Projects"
 
 export const Main = () => {
-    const list: [] = []
 
-    fetch("https://api.github.com/users/barryae/repos?visibility=public&sort=created")
-        .then(results => {
-            return results.json()
-        })
-        .then((myJson) => {
-            console.log(myJson)
-        })
+    const [data, setData] = useState([])
+    const gitHubParams: string = "visibility=public&sort=pushed"
 
+    useEffect(() => {
+        const fetchData = async () => {
+            const list = await fetch("https://api.github.com/users/barryae/repos?" + gitHubParams);
+            const results = await list.json();
+            console.log(results)
+            setData(results)
+        }
+        fetchData()
+    }, []);
+    console.log(data)
     return (
-        // Image pulled in from GitHub
-        <Projects projects={list} />
-        //Articles
+        <Projects projects={data} />
     )
 }
