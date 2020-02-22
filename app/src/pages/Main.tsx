@@ -8,14 +8,16 @@ export const Main = () => {
     const gitHubParams: string = "visibility=public&sort=pushed"
 
     useEffect(() => {
-        const fetchData = async () => {
+        const fetchRepos = async () => {
             const list = await fetch("https://api.github.com/users/barryae/repos?" + gitHubParams);
-            const results = await list.json();
-            console.log(results)
-            setData(results)
+            const repos = await list.json();
+            console.log(repos)
+            setData(repos.slice(0, 3))
         }
-        fetchData()
+        fetchRepos()
     }, []);
+
+
     console.log(data)
     return (
         <Projects projects={data} />
