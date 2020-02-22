@@ -20,6 +20,8 @@ export const Main = () => {
 
     console.log(data)
     return (
-        <Projects projects={data} />
+        <div className="main">
+            <Projects projects={data} />
+        </div>
     )
 }

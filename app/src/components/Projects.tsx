@@ -7,11 +7,11 @@ export class Projects extends React.Component<{ projects: any[] }> {
             return <Card name={project.name} description={project.description} key={i} />
         });
         return (
-            <div>
-                <h3>
+            <div className="projects">
+                <h3 className="title">
                     Recent Projects:
                 </h3>
-                <div>
+                <div className="projectsContainer">
                     {projectItems}
                 </div>
             </div>
