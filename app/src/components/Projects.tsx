@@ -4,15 +4,17 @@ import Card from "./Card"
 export class Projects extends React.Component<{ projects: any[] }> {
     render() {
         let projectItems = this.props.projects.map((project: any, i: number) => {
-            return <Card name={project.name} description={project.description} key={i} />
+            return <Card name={project.name} description={project.description} projectNumber={i} key={i} />
         });
         return (
-            <div className="projects">
-                <h3 className="title">
+            <div>
+                <div className="theme sectionHeader accent">
                     Recent Projects:
-                </h3>
-                <div className="projectsContainer">
-                    {projectItems}
+                </div>
+                <div className="projects main">
+                    <div className="projectsContainer">
+                        {projectItems}
+                    </div>
                 </div>
             </div>
         )
