@@ -25,6 +25,22 @@ body{
   box-shadow: 1em 2em 2em rgba(161, 161, 161, 0.3);
 }
 
+.bio{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+  "bio-img bio-text biotext";
+}
+
+.bio-img{
+grid-area: bio-img;
+width: 25vw;
+}
+
+.bio-text{
+grid-area: bio-text;
+}
+
 .projects{
   background-color: rgba(255, 255, 255, 0.26);
 }
@@ -37,7 +53,6 @@ body{
  "project0" 
   "project1" 
   "project2";
-  
 }
 
 .project0 {
