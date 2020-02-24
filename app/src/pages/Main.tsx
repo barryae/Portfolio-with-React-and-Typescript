@@ -6,7 +6,7 @@ import { Bio } from "../components/Bio"
 export const Main = () => {
 
     const [data, setData] = useState([])
-    const gitHubParams: string = "visibility=public&sort=pushed"
+    const gitHubParams: string = "visibility=public&sort=created"
     useEffect(() => {
         const fetchRepos = async () => {
             const list = await fetch("https://api.github.com/users/barryae/repos?" + gitHubParams);

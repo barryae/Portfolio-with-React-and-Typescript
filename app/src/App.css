@@ -35,6 +35,9 @@ body{
 .bio-img{
 grid-area: bio-img;
 width: 25vw;
+border-radius: 10em;
+padding: 1em;
+max-width: 200px
 }
 
 .bio-text{
