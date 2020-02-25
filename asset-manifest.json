@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.d36156bb.chunk.css",
+    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.66ef0cf0.chunk.js",
+    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.66ef0cf0.chunk.js.map",
+    "runtime-main.js": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js",
+    "runtime-main.js.map": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js.map",
+    "static/js/2.c10dbb00.chunk.js": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js",
+    "static/js/2.c10dbb00.chunk.js.map": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.map",
+    "index.html": "/Portfolio-with-React-and-Typescript/index.html",
+    "precache-manifest.9b1b3e6485c51b9d7d9c05237af8be7a.js": "/Portfolio-with-React-and-Typescript/precache-manifest.9b1b3e6485c51b9d7d9c05237af8be7a.js",
+    "service-worker.js": "/Portfolio-with-React-and-Typescript/service-worker.js",
+    "static/css/main.d36156bb.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.d36156bb.chunk.css.map",
+    "static/js/2.c10dbb00.chunk.js.LICENSE.txt": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.LICENSE.txt",
+    "static/media/project0.png": "/Portfolio-with-React-and-Typescript/static/media/project0.a044935b.png",
+    "static/media/project1.png": "/Portfolio-with-React-and-Typescript/static/media/project1.fbde7378.png",
+    "static/media/project2.png": "/Portfolio-with-React-and-Typescript/static/media/project2.b5388a7d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c443f0f9.js",
+    "static/js/2.c10dbb00.chunk.js",
+    "static/css/main.d36156bb.chunk.css",
+    "static/js/main.66ef0cf0.chunk.js"
+  ]
+}
