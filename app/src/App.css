@@ -93,11 +93,27 @@ grid-area: bio-text;
 }
 
 @media only screen and (min-width: 720px) {
+  .bio{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+  "bio-img bio-text biotext";
+}
+
   .projectsContainer{
+    margin: auto;
+    width:80vw;
      display: grid;
   grid-gap: 1rem;
  grid-template-areas:
  "project0 project1 project2"
  ;
   }
+
+  .main {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 1em 2em 2em rgba(161, 161, 161, 0.3);
+  }
+
 }
