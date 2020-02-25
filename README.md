@@ -1,2 +1,3 @@
-# Portfolio-with-React-Typescript-and-Redux
-Portfolio using React, Typescript, and Redux
+# Portfolio-with-React-TypeScript
+
+Portfolio using React and TypeScript
