@@ -11,11 +11,10 @@ export const Main = () => {
         const fetchRepos = async () => {
             const list = await fetch("https://api.github.com/users/barryae/repos?" + gitHubParams);
             const repos = await list.json();
-            setData(repos.slice(0, 3))
+            setData(repos)
         }
         fetchRepos()
     }, []);
-    console.log(data)
     return (
         <div >
             <Bio />

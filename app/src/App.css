@@ -1,31 +1,45 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto',Arial, Helvetica, sans-serif
 }
-
-.navbar{
-  display: grid;
-  grid-template-columns: repeat(1, auto)1fr;
-  width: 100%;
-  box-shadow: 1em 2em 2em rgba(161, 161, 161, 0.3);
-}
-
 
 .title{
-  padding: 0 1em;
+  font-family: 'Merriweather';
+  padding: 1rem;
+  margin: auto;
   text-shadow: 2em 4em 3em rgba(161, 161, 161, 0.3);
+  font-size: 6vw;
 }
 
 .sectionHeader{
-  padding: 1em;
+  font-family: 'Merriweather';
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+.card-header{
+  font-family: 'Merriweather';
+  font-weight: bold;
+  
 }
 
 .main {
   width: 100%;
   max-width: 100%;
-  box-shadow: 1em 2em 2em rgba(161, 161, 161, 0.3);
+  box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
+}
+
+.image-container{
+  padding: 1rem;
 }
 
 .bio{
+  
+  margin-bottom: 1rem;
+}
+
+.bio-content{
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
@@ -36,26 +50,29 @@ body{
 grid-area: bio-img;
 width: 25vw;
 border-radius: 10em;
-padding: 1em;
-max-width: 200px
+max-width: 200px;
+box-shadow: 0 10px 10px 0px rgba(24, 23, 23, 0.596);
 }
 
 .bio-text{
 grid-area: bio-text;
+font-size: 1.25rem;
 }
 
-.projects{
-  background-color: rgba(255, 255, 255, 0.26);
+.content{
+  width: 100%;
+  margin: auto;
 }
 
 .projectsContainer {
-  margin: 1rem;
+  margin: auto;
   display: grid;
   grid-gap: 1rem;
  grid-template-areas:
  "project0" 
   "project1" 
   "project2";
+  
 }
 
 .project0 {
@@ -71,7 +88,7 @@ grid-area: bio-text;
 }
 
 .theme{
-  background-color: rgb(61, 88, 119);
+  background-color: rgb(90, 133, 168);
 }
 
 .accent{
@@ -79,7 +96,8 @@ grid-area: bio-text;
 }
 
 .card{
-  width: 100%;
+  padding: 1rem;
+  
 }
 
 .card-link, .card-link:visited {
@@ -93,11 +111,19 @@ grid-area: bio-text;
 }
 
 @media only screen and (min-width: 720px) {
-  .bio{
+
+.bio-content{
+  margin: auto;
+    width:80vw;
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
   "bio-img bio-text biotext";
+}
+
+.content{
+  margin: auto;
+    width:80vw;
 }
 
   .projectsContainer{
@@ -113,7 +139,7 @@ grid-area: bio-text;
   .main {
   width: 100%;
   max-width: 100%;
-  box-shadow: 1em 2em 2em rgba(161, 161, 161, 0.3);
+  box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
   }
 
 }
