@@ -15,7 +15,7 @@ body{
   margin-bottom: 1rem;
   font-weight: bold;
   font-size: 1.5rem;
-  
+  text-shadow: 0;
 }
 
 
@@ -83,12 +83,12 @@ font-size: 1.25rem;
 }
 
 .theme{
-  background-color: rgb(90, 133, 168);
+  background-color: rgb(120, 176, 221);
 }
 
 .accent{
   color: rgb(255, 255, 255);
-  text-shadow: 0rem 0rem 3px rgba(43, 41, 41, 0.301);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767);
 }
 
 .card{
