@@ -2,8 +2,8 @@ import * as React from "react";
 
 export function NavBar() {
     return (
-        <div>
-            <div className="title content">
+        <div className="title">
+            <div className="content">
                 Barry A. Ervin
             </div>
         </div>
