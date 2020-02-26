@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.d36156bb.chunk.css",
-    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.ee72eafe.chunk.js",
-    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.ee72eafe.chunk.js.map",
+    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.98f76120.chunk.css",
+    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.25deea9d.chunk.js",
+    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.25deea9d.chunk.js.map",
     "runtime-main.js": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js",
     "runtime-main.js.map": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js.map",
     "static/js/2.c10dbb00.chunk.js": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js",
     "static/js/2.c10dbb00.chunk.js.map": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.map",
     "index.html": "/Portfolio-with-React-and-Typescript/index.html",
-    "precache-manifest.0dd6019a2ad2bbacdbb8ee94db7a73e4.js": "/Portfolio-with-React-and-Typescript/precache-manifest.0dd6019a2ad2bbacdbb8ee94db7a73e4.js",
+    "precache-manifest.6ff4b7fe99934a7f164a7e8c301fcfec.js": "/Portfolio-with-React-and-Typescript/precache-manifest.6ff4b7fe99934a7f164a7e8c301fcfec.js",
     "service-worker.js": "/Portfolio-with-React-and-Typescript/service-worker.js",
-    "static/css/main.d36156bb.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.d36156bb.chunk.css.map",
+    "static/css/main.98f76120.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.98f76120.chunk.css.map",
     "static/js/2.c10dbb00.chunk.js.LICENSE.txt": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.LICENSE.txt",
-    "static/media/project0.png": "/Portfolio-with-React-and-Typescript/static/media/project0.a044935b.png",
-    "static/media/project1.png": "/Portfolio-with-React-and-Typescript/static/media/project1.fbde7378.png",
-    "static/media/project2.png": "/Portfolio-with-React-and-Typescript/static/media/project2.b5388a7d.png"
+    "static/media/002-cat.png": "/Portfolio-with-React-and-Typescript/static/media/002-cat.49ae26fb.png",
+    "static/media/003-cv.png": "/Portfolio-with-React-and-Typescript/static/media/003-cv.d5853438.png",
+    "static/media/project0.png": "/Portfolio-with-React-and-Typescript/static/media/project0.5b7c41b2.png",
+    "static/media/project1.png": "/Portfolio-with-React-and-Typescript/static/media/project1.8c631fce.png",
+    "static/media/project2.png": "/Portfolio-with-React-and-Typescript/static/media/project2.61e273f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c443f0f9.js",
     "static/js/2.c10dbb00.chunk.js",
-    "static/css/main.d36156bb.chunk.css",
-    "static/js/main.ee72eafe.chunk.js"
+    "static/css/main.98f76120.chunk.css",
+    "static/js/main.25deea9d.chunk.js"
   ]
 }
