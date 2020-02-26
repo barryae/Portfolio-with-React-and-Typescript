@@ -16,7 +16,7 @@ export default class Card extends React.Component<{ name: string; key: number; d
                 <div>
                 </div>
                 <div className={"card-header " + string + "-header"}>
-                    <a className="card-link" href={this.props.url}>{repoNameFormat(this.props.name)}</a>
+                    <a className="card-link" href={this.props.url} target="_blank">{repoNameFormat(this.props.name)}</a>
                 </div>
                 <img className="card-img" src={require('../images/project' + this.props.projectNumber + ".png")} alt="project" />
                 <div className={"card-text " + string + "-text"}>

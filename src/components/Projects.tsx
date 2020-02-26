@@ -5,7 +5,7 @@ export class Projects extends React.Component<{ projects: any[] }> {
     render() {
 
         let projectItems = this.props.projects.filter((project: any, i: number) =>
-            (i === 1 || i === 3 || i === 4)
+            (i === 1 || i === 3 || i === 7)
         ).map((project: any, i: number) => {
             return (
                 <Card name={project.name}
