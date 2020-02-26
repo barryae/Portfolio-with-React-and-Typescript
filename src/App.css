@@ -36,7 +36,7 @@ body{
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
-  "bio-img bio-text biotext";
+  "bio-img bio-text bio-text bio-text"
 }
 
 .bio-img{
@@ -70,6 +70,7 @@ font-size: 1.25rem;
 }
 
 .contact{
+   font-family: 'Merriweather';
   font-weight: 400;
   margin: auto;
   /* margin-left: 0; */
@@ -210,17 +211,50 @@ padding: 1rem;
     width:80vw;
 }
 
-  .projectsContainer{
-    
-     display: grid;
+.contact-container{
+  display: grid;
   grid-gap: 1rem;
- grid-template-areas:
- "project0 project1 project2"
- ;
-  }
+  grid-template-areas: 
+  "contact linkedin github resume . . . . . . . . . .";
+}
 
-  .main {
-    max-width: 100%;
+.contact{
+  font-family: 'Merriweather';
+  font-weight: 400;
+  margin: auto;
+  margin-left: 0;
+  padding:0;
+  font-size: 3vw;
+  grid-area: contact;
+}
+
+.icon-img{
+  margin:1rem 1rem;
+  width: 4vw; 
+  object-fit: contain;
+}
+
+.sectionHeader{
+  font-family: 'Merriweather';
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 3vw;
+  text-shadow: 0;
+}
+
+
+.projectsContainer{
+    
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "project0 project1 project2"
+ ;
+}
+
+.main {
+  max-width: 100%;
   width: 100%;
   box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
   }

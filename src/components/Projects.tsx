@@ -21,7 +21,7 @@ export class Projects extends React.Component<{ projects: any[] }> {
                 <div>
                     <div className="theme sectionHeader accent">
                         <div className="content">
-                            Recent Projects:
+                            Featured Projects:
                         </div>
                     </div>
                     <div className="projectsContainer content">
