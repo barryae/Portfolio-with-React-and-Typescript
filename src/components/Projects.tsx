@@ -18,7 +18,7 @@ export class Projects extends React.Component<{ projects: any[] }> {
 
         return (
             <div>
-                <div className="main">
+                <div>
                     <div className="theme sectionHeader accent">
                         <div className="content">
                             Recent Projects:

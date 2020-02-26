@@ -16,7 +16,7 @@ export const Main = () => {
         fetchRepos()
     }, []);
     return (
-        <div >
+        <div className="main">
             <Bio />
             <Projects projects={data} />
         </div>

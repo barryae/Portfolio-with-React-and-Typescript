@@ -60,6 +60,7 @@ font-size: 1.25rem;
 }
 
 .projectsContainer {
+  padding-bottom: 5rem;
   margin: auto;
   display: grid;
   grid-gap: 1rem;
@@ -74,21 +75,55 @@ font-size: 1.25rem;
   grid-area: project0;
 }
 
+.project0-header{
+/* background-color: rgb(146, 196, 172); */
+padding: 1rem;
+}
+
+.project0-text{
+/* background-color: rgba(199, 64, 46, 0.952); */
+padding: 1rem;
+/* color: rgb(255, 239, 219); */
+}
+
 .project1 {
   grid-area: project1;
 }
+
+.project1-header{
+/* background-color: rgb(146, 196, 172); */
+padding: 1rem;
+}
+
+.project1-text{
+/* background-color: rgba(199, 64, 46, 0.952); */
+padding: 1rem;
+/* color: rgb(255, 239, 219); */
+}
+
 
 .project2 {
   grid-area: project2;
 }
 
-.theme{
-  background-color: rgb(120, 176, 221);
+.project2-header{
+/* background-color: rgb(146, 196, 172); */
+padding: 1rem;
 }
+
+.project2-text{
+/* background-color: rgba(199, 64, 46, 0.952); */
+padding: 1rem;
+/* color: rgb(255, 239, 219); */
+}
+.theme{
+  background-color: rgb(92, 136, 172);
+}
+
 
 .accent{
   color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767);
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767); */
 }
 
 .card{
@@ -99,16 +134,12 @@ font-size: 1.25rem;
 .card-header{
   font-family: 'Merriweather';
   font-weight: bold;
-  margin: .5rem .5rem;
+  /* margin: .5rem .5rem; */
 }
 
-.card-text{
-   margin: .5rem .5rem;
-}
-
-.card-img{
-  width:50vw;
-  margin: 1rem;
+.card-img{ 
+  width: 100%; 
+  object-fit: contain;
 }
 
 .card-link, .card-link:visited {
@@ -124,7 +155,8 @@ font-size: 1.25rem;
 @media only screen and (min-width: 720px) {
 
 .card-img{
-  width:10rem;
+  width: 100%;
+    object-fit: contain;
 }
 
 .card{
@@ -155,8 +187,8 @@ font-size: 1.25rem;
   }
 
   .main {
+    max-width: 100%;
   width: 100%;
-  max-width: 100%;
   box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
   }
 
