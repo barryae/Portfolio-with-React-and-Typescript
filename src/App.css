@@ -12,6 +12,10 @@ body{
   height: 25vh;
 }
 
+.middle-spacer{
+  height: 30vh;
+}
+
 .title{
   font-family: 'Merriweather';
   font-size: 8vw;
@@ -19,11 +23,12 @@ body{
 
 .bio{
   height: 100vh;
+  margin-bottom: 1rem;
 }
 
 .bio-text{
 grid-area: bio-text;
-font-size: 3vw;
+font-size:4vmin;
 }
 
 .content{
@@ -84,10 +89,6 @@ font-size: 3vw;
   grid-area: bottom;
 }
 
-.middle-spacer{
-  height: 25vh;
-}
-
 .projectsContainer {
   padding-bottom: 5rem;
   margin: auto;
@@ -97,48 +98,27 @@ font-size: 3vw;
  "project0" 
   "project1" 
   "project2";
-  
 }
 
 .project0 {
   grid-area: project0;
 }
 
-.project0-header{
-padding: 1rem;
-}
-
-.project0-text{
-padding: 1rem;
-}
-
 .project1 {
   grid-area: project1;
 }
-
-.project1-header{
-padding: 1rem;
-}
-
-.project1-text{
-padding: 1rem;
-}
-
 
 .project2 {
   grid-area: project2;
 }
 
-.project2-header{
-padding: 1rem;
-}
-
-.project2-text{
-padding: 1rem;
-}
-
 .card{
-  margin: 1rem 2rem;
+  margin: 2rem 2rem;
+}
+
+.card-text{
+  font-size: 2.5vw;
+  margin: 1vw;
 }
 
 .card-header{

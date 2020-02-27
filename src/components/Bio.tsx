@@ -7,7 +7,12 @@ export default function Bio() {
             <div className="top-spacer"></div>
             <BigWord word="Hey, I'm Barry." />
             <div className="content">
-                <p className="bio-text">I am a Full Stack Web Developer creating inspired web-apps using React, JavaScript, and Node. I love quickly adapting to interesting situations involving rapidly changing technology. Let's build something great together.</p>
+                <p className="bio-text">I'm a Full Stack Web Developer based in Atlanta, GA.</p>
+                <p className="bio-text">
+                    Interesting problems that require interesting technology make me get out of bed in the morning.
+                    I specialize in building with React and Node, but I'm constantly expanding my bag of tools.
+                    If you have some interesting problems that need solving, I'd love to help.
+                </p>
             </div>
         </div >
     )
