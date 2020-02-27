@@ -13,7 +13,7 @@ body{
 }
 
 .middle-spacer{
-  height: 30vh;
+  height: 33vh;
 }
 
 .title{
@@ -117,14 +117,15 @@ font-size:4vmin;
 }
 
 .card-text{
-  font-size: 2.5vw;
-  margin: 1vw;
+  font-size: 4vmin;
+  margin: 1vw 0vw;
 }
 
 .card-header{
   font-family: 'Merriweather';
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 4vw;
+  margin-bottom: 1vw;
 }
 
 .card-img{ 
