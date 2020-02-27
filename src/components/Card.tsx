@@ -1,4 +1,5 @@
 import * as React from "react";
+import BigWord from "../components/BigWord"
 
 export default function Card(props: { name: string; key: number; description: string; projectNumber: number; url: string }) {
     function repoNameFormat(name: string) {

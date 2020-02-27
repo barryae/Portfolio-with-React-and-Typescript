@@ -17,12 +17,8 @@ export default function Projects(props: { projects: any[] }) {
 
     return (
         <div>
+            <div className="middle-spacer"></div>
             <div>
-                <div className="theme sectionHeader accent">
-                    <div className="content">
-                        Featured Projects:
-                    </div>
-                </div>
                 <div className="projectsContainer content">
                     {projectItems}
                 </div>

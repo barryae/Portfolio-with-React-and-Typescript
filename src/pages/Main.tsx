@@ -2,6 +2,7 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import Projects from "../components/Projects"
 import Bio from "../components/Bio"
+import Contact from "../components/Contact"
 
 export default function Main() {
 
@@ -20,6 +21,7 @@ export default function Main() {
     return (
         <div className="main">
             <Bio />
+            <Contact />
             <Projects projects={data} />
         </div>
     )

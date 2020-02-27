@@ -1,97 +1,91 @@
 body{
-  font-family: 'Roboto',Arial, Helvetica, sans-serif
-}
-
-.title{
-  font-family: 'Merriweather';
-  margin: 1rem;
-  text-shadow: 2em 4em 3em rgba(161, 161, 161, 0.3);
-  font-size: 8vw;
+  font-family: 'Roboto'
 }
 
 .main {
   margin:auto;
-  width: 70%;
+  width: 64vw;
   max-width: 100%;
-  /* box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3); */
 }
 
-.sectionHeader{
+.top-spacer{
+  height: 25vh;
+}
+
+.title{
   font-family: 'Merriweather';
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-weight: 500;
-  font-size: 4vw;
-  text-shadow: 0;
-}
-
-.image-container{
-  padding: 1rem;
+  font-size: 8vw;
 }
 
 .bio{
-  margin-bottom: 0rem;
-}
-
-/* .bio-content{
-  display: grid;
-  grid-gap: 1rem;
-  /* grid-template-areas: 
-  "bio-img bio-text bio-text bio-text" 
-} */
-
-.bio-img{
-grid-area: bio-img;
-width: 25vw;
-border-radius: 10em;
-max-width: 200px;
-box-shadow: 0 10px 10px 0px rgba(24, 23, 23, 0.596);
-margin: 1rem;
+  height: 100vh;
 }
 
 .bio-text{
 grid-area: bio-text;
-font-size: 1.25rem;
-margin: 1rem;
+font-size: 3vw;
 }
 
 .content{
   width: 100%;
 }
 
-/* .contact-container{
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: 
-  "contact linkedin github resume";
-} */
-
 .icon-img{
-  margin:1rem 1rem;
-  width: 7vw; 
+  margin:1rem;
+  width: 6vw; 
   object-fit: contain;
 }
 
-.contact{
-   font-family: 'Merriweather';
-  font-weight: 400;
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container{
+  max-width: 64vw;
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "left top  right"
+  "left center right"
+  "left bottom right"
+}
+
+.contact-img{
+  grid-area: center;
+  border-radius: 9vh 9vh 0vh 0vh;
+  width: 16vw; 
+  border: 5px solid black;
+  margin: 4vw auto;
+}
+
+.open-bracket{
   margin: auto;
-  /* margin-left: 0; */
-  padding:0;
-  font-size: 5vw;
-  grid-area: contact;
+  max-width: 8vw;
+  grid-area: left;
+  font-size: 30vw;
+  transform: scale(1, 1.7);
 }
 
-.linkedin{
-grid-area: linkedin;
+.close-bracket{
+  margin: auto;
+  max-width: 8vw;
+  grid-area: right;
+ font-size: 30vw;
+ transform: scale(1, 1.7);
+ text-align: center;
 }
 
-.github{
-grid-area: github;
+.links-container{
+  margin: 1vw;
+  max-width: 32vw;
+  grid-area: bottom;
 }
 
-.resume{
-grid-area: resume;
+.middle-spacer{
+  height: 25vh;
 }
 
 .projectsContainer {
@@ -111,14 +105,11 @@ grid-area: resume;
 }
 
 .project0-header{
-/* background-color: rgb(146, 196, 172); */
 padding: 1rem;
 }
 
 .project0-text{
-/* background-color: rgba(199, 64, 46, 0.952); */
 padding: 1rem;
-/* color: rgb(255, 239, 219); */
 }
 
 .project1 {
@@ -126,14 +117,11 @@ padding: 1rem;
 }
 
 .project1-header{
-/* background-color: rgb(146, 196, 172); */
 padding: 1rem;
 }
 
 .project1-text{
-/* background-color: rgba(199, 64, 46, 0.952); */
 padding: 1rem;
-/* color: rgb(255, 239, 219); */
 }
 
 
@@ -142,36 +130,21 @@ padding: 1rem;
 }
 
 .project2-header{
-/* background-color: rgb(146, 196, 172); */
 padding: 1rem;
 }
 
 .project2-text{
-/* background-color: rgba(199, 64, 46, 0.952); */
 padding: 1rem;
-/* color: rgb(255, 239, 219); */
 }
-/* .theme{
-  background-color: rgb(173, 221, 193);
-  box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.71)
-} */
-
-
-/* .accent{
-  color: rgb(255, 255, 255);
-  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767); 
-} */
 
 .card{
   margin: 1rem 2rem;
-  box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.71);
-  /* box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.71); */
 }
 
 .card-header{
   font-family: 'Merriweather';
   font-weight: bold;
-  /* margin: .5rem .5rem; */
+  font-size: 6vw;
 }
 
 .card-img{ 
@@ -189,7 +162,7 @@ padding: 1rem;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 720px) {
+/* @media only screen and (min-width: 720px) {
 
 .card-img{
   width: 100%;
@@ -203,24 +176,12 @@ padding: 1rem;
 .bio-content{
   margin: auto;
     width:80vw;
-  /* display: grid;
-  grid-gap: 1rem; */
-  /* grid-template-areas: 
-  "bio-img bio-text bio-text bio-text"
-  "bio-img"; */
 }
 
 .content{
   margin: auto;
   width:80vw;
 }
-
-/* .contact-container{
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: 
-  "contact linkedin github resume";
-} */
 
 .contact{
   font-family: 'Merriweather';
@@ -263,4 +224,4 @@ padding: 1rem;
   box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
   }
 
-}
+} */
