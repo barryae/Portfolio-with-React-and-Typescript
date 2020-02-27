@@ -1,10 +1,9 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import { Projects } from "../components/Projects"
-import { Bio } from "../components/Bio"
-import Contact from "../components/Contact"
+import Projects from "../components/Projects"
+import Bio from "../components/Bio"
 
-export const Main = () => {
+export default function Main() {
 
     const [data, setData] = useState([])
     const gitHubParams: string = "visibility=public&sort=created"
@@ -17,10 +16,10 @@ export const Main = () => {
         }
         fetchRepos()
     }, []);
+
     return (
         <div className="main">
             <Bio />
-            <Contact />
             <Projects projects={data} />
         </div>
     )

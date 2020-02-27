@@ -10,9 +10,10 @@ body{
 }
 
 .main {
-  width: 100%;
+  margin:auto;
+  width: 70%;
   max-width: 100%;
-  box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3);
+  /* box-shadow: 1rem 2em 2em rgba(161, 161, 161, 0.3); */
 }
 
 .sectionHeader{
@@ -32,12 +33,12 @@ body{
   margin-bottom: 0rem;
 }
 
-.bio-content{
+/* .bio-content{
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas: 
-  "bio-img bio-text bio-text bio-text"
-}
+  /* grid-template-areas: 
+  "bio-img bio-text bio-text bio-text" 
+} */
 
 .bio-img{
 grid-area: bio-img;
@@ -45,23 +46,25 @@ width: 25vw;
 border-radius: 10em;
 max-width: 200px;
 box-shadow: 0 10px 10px 0px rgba(24, 23, 23, 0.596);
+margin: 1rem;
 }
 
 .bio-text{
 grid-area: bio-text;
 font-size: 1.25rem;
+margin: 1rem;
 }
 
 .content{
   width: 100%;
 }
 
-.contact-container{
+/* .contact-container{
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
-  "contact contact linkedin github resume";
-}
+  "contact linkedin github resume";
+} */
 
 .icon-img{
   margin:1rem 1rem;
@@ -148,16 +151,16 @@ padding: 1rem;
 padding: 1rem;
 /* color: rgb(255, 239, 219); */
 }
-.theme{
-  background-color: rgb(92, 136, 172);
+/* .theme{
+  background-color: rgb(173, 221, 193);
   box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.71)
-}
+} */
 
 
-.accent{
+/* .accent{
   color: rgb(255, 255, 255);
-  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767); */
-}
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767); 
+} */
 
 .card{
   margin: 1rem 2rem;
@@ -200,23 +203,24 @@ padding: 1rem;
 .bio-content{
   margin: auto;
     width:80vw;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: 
-  "bio-img bio-text biotext";
+  /* display: grid;
+  grid-gap: 1rem; */
+  /* grid-template-areas: 
+  "bio-img bio-text bio-text bio-text"
+  "bio-img"; */
 }
 
 .content{
   margin: auto;
-    width:80vw;
+  width:80vw;
 }
 
-.contact-container{
+/* .contact-container{
   display: grid;
   grid-gap: 1rem;
   grid-template-areas: 
-  "contact linkedin github resume . . . . . . . . . .";
-}
+  "contact linkedin github resume";
+} */
 
 .contact{
   font-family: 'Merriweather';
