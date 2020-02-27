@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.98f76120.chunk.css",
-    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.e694376d.chunk.js",
-    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.e694376d.chunk.js.map",
+    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.953dab48.chunk.css",
+    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.14a57b9a.chunk.js",
+    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.14a57b9a.chunk.js.map",
     "runtime-main.js": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js",
     "runtime-main.js.map": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js.map",
-    "static/js/2.c10dbb00.chunk.js": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js",
-    "static/js/2.c10dbb00.chunk.js.map": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.map",
+    "static/js/2.091fd83e.chunk.js": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js",
+    "static/js/2.091fd83e.chunk.js.map": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js.map",
     "index.html": "/Portfolio-with-React-and-Typescript/index.html",
-    "precache-manifest.bf25325251f29d8b06469b1738089596.js": "/Portfolio-with-React-and-Typescript/precache-manifest.bf25325251f29d8b06469b1738089596.js",
+    "precache-manifest.2c7ebd353931d41028ba8f7c9b2c53a0.js": "/Portfolio-with-React-and-Typescript/precache-manifest.2c7ebd353931d41028ba8f7c9b2c53a0.js",
     "service-worker.js": "/Portfolio-with-React-and-Typescript/service-worker.js",
-    "static/css/main.98f76120.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.98f76120.chunk.css.map",
-    "static/js/2.c10dbb00.chunk.js.LICENSE.txt": "/Portfolio-with-React-and-Typescript/static/js/2.c10dbb00.chunk.js.LICENSE.txt",
+    "static/css/main.953dab48.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.953dab48.chunk.css.map",
+    "static/js/2.091fd83e.chunk.js.LICENSE.txt": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js.LICENSE.txt",
+    "static/media/001-linkedin.png": "/Portfolio-with-React-and-Typescript/static/media/001-linkedin.d31a5371.png",
     "static/media/002-cat.png": "/Portfolio-with-React-and-Typescript/static/media/002-cat.49ae26fb.png",
     "static/media/003-cv.png": "/Portfolio-with-React-and-Typescript/static/media/003-cv.d5853438.png",
     "static/media/project0.png": "/Portfolio-with-React-and-Typescript/static/media/project0.5b7c41b2.png",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c443f0f9.js",
-    "static/js/2.c10dbb00.chunk.js",
-    "static/css/main.98f76120.chunk.css",
-    "static/js/main.e694376d.chunk.js"
+    "static/js/2.091fd83e.chunk.js",
+    "static/css/main.953dab48.chunk.css",
+    "static/js/main.14a57b9a.chunk.js"
   ]
 }
