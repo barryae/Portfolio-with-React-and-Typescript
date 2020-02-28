@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.5fc7c0eb.chunk.css",
-    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.14a57b9a.chunk.js",
-    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.14a57b9a.chunk.js.map",
+    "main.css": "/Portfolio-with-React-and-Typescript/static/css/main.629486bd.chunk.css",
+    "main.js": "/Portfolio-with-React-and-Typescript/static/js/main.d9ee878a.chunk.js",
+    "main.js.map": "/Portfolio-with-React-and-Typescript/static/js/main.d9ee878a.chunk.js.map",
     "runtime-main.js": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js",
     "runtime-main.js.map": "/Portfolio-with-React-and-Typescript/static/js/runtime-main.c443f0f9.js.map",
     "static/js/2.091fd83e.chunk.js": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js",
     "static/js/2.091fd83e.chunk.js.map": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js.map",
     "index.html": "/Portfolio-with-React-and-Typescript/index.html",
-    "precache-manifest.b198a160212565bc382c61f76726a2ba.js": "/Portfolio-with-React-and-Typescript/precache-manifest.b198a160212565bc382c61f76726a2ba.js",
+    "precache-manifest.b4ceb93109f10968a9d79739ffdaf9df.js": "/Portfolio-with-React-and-Typescript/precache-manifest.b4ceb93109f10968a9d79739ffdaf9df.js",
     "service-worker.js": "/Portfolio-with-React-and-Typescript/service-worker.js",
-    "static/css/main.5fc7c0eb.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.5fc7c0eb.chunk.css.map",
+    "static/css/main.629486bd.chunk.css.map": "/Portfolio-with-React-and-Typescript/static/css/main.629486bd.chunk.css.map",
     "static/js/2.091fd83e.chunk.js.LICENSE.txt": "/Portfolio-with-React-and-Typescript/static/js/2.091fd83e.chunk.js.LICENSE.txt",
     "static/media/001-linkedin.png": "/Portfolio-with-React-and-Typescript/static/media/001-linkedin.d31a5371.png",
     "static/media/002-cat.png": "/Portfolio-with-React-and-Typescript/static/media/002-cat.49ae26fb.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c443f0f9.js",
     "static/js/2.091fd83e.chunk.js",
-    "static/css/main.5fc7c0eb.chunk.css",
-    "static/js/main.14a57b9a.chunk.js"
+    "static/css/main.629486bd.chunk.css",
+    "static/js/main.d9ee878a.chunk.js"
   ]
 }
