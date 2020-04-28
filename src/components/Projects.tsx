@@ -4,7 +4,7 @@ import Card from "./Card"
 export default function Projects(props: { projects: any[] }) {
 
     let projectItems = props.projects.filter((project: any, i: number) =>
-        (project.name === "Smiirl-Server-with-CronJob" || project.name === "fermention" || project.name === "Cocktail-Genius")
+        (project.name === "Smiirl-Server-with-CronJob" || project.name === "fermention" || project.name === "ebookpromos")
     ).map((project: any, i: number) => {
         return (
             <Card name={project.name}
